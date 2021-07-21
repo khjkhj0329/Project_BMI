@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         editW = findViewById(R.id.edit_height);
-        editH = findViewById(R.id.edit_wight);
+        editH = findViewById(R.id.edit_weight);
         Button btnCheck = findViewById(R.id.btn_check);
         btnCheck.setOnClickListener(btnListener);
     }
