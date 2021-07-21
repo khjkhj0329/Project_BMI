@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        editW = findViewById(R.id.edit_height);
-        editH = findViewById(R.id.edit_weight);
+        editW = findViewById(R.id.edit_weight);
+        editH = findViewById(R.id.edit_height);
         Button btnCheck = findViewById(R.id.btn_check);
         btnCheck.setOnClickListener(btnListener);
     }
@@ -32,6 +32,5 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("height", height);
             startActivity(intent);
         }
-
     };
 }
