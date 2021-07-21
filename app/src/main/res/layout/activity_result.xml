@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     tools:context=".ResultActivity">
     <TextView
         android:layout_width="match_parent"
@@ -36,5 +36,4 @@
         android:textSize="15sp"
         android:textColor="#1F9178"
         android:textStyle="bold"/>
-
 </LinearLayout>
